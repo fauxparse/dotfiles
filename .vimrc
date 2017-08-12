@@ -22,12 +22,16 @@ set cursorline
 set tags+=gems.tags
 
 set background=dark
-colorscheme solarized
+colorscheme gruvbox
 highlight Comment cterm=italic
 
-python from powerline.vim import setup as powerline_setup
-python powerline_setup()
-python del powerline_setup
+let g:airline_powerline_fonts = 1
+if !exists('g:airline_symbols')
+  let g:airline_symbols = {}
+endif
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#tab_nr_type = 1
+let g:airline#extensions#tabline#show_buffers = 0
 
 let g:closetag_filenames = "*.html,*.erb,*.js,*.jsx"
 let g:jsx_ext_required = 0
