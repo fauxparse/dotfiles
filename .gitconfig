@@ -10,7 +10,9 @@
   cv = commit --verbose
   l = log --oneline
   m = commit --amend
+  ca = commit --amend --no-edit
   pf = push --force-with-lease
   s = status
+  st = status
   aliases = "!git config -l | grep alias | cut -c 7-"
   branches = "!git for-each-ref --sort='-authordate' --format='%(authordate)%09%(objectname:short)%09%(refname)' refs/heads | sed -e 's-refs/heads/--'"
