@@ -22,7 +22,7 @@ set cursorline
 set tags+=gems.tags
 
 set background=dark
-colorscheme gruvbox
+colorscheme dracula
 highlight Comment cterm=italic
 
 let g:airline_powerline_fonts = 1
