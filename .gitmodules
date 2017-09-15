@@ -1,0 +1,93 @@
+[submodule "vim/plugins/ctrlp.vim"]
+	path = vim/bundle/ctrlp.vim
+	url = git://github.com/ctrlpvim/ctrlp.vim.git
+[submodule "vim/plugins/gruvbox"]
+	path = vim/bundle/gruvbox
+	url = git://github.com/morhetz/gruvbox.git
+[submodule "vim/plugins/splitjoin.vim"]
+	path = vim/bundle/splitjoin.vim
+	url = git://github.com/AndrewRadev/splitjoin.vim.git
+[submodule "vim/plugins/tabular"]
+	path = vim/bundle/tabular
+	url = git://github.com/godlygeek/tabular.git
+[submodule "vim/plugins/vim"]
+	path = vim/bundle/vim
+	url = git://github.com/dracula/vim.git
+[submodule "vim/plugins/vim-abolish"]
+	path = vim/bundle/vim-abolish
+	url = git://github.com/tpope/vim-abolish.git
+[submodule "vim/plugins/vim-airline"]
+	path = vim/bundle/vim-airline
+	url = git://github.com/vim-airline/vim-airline
+[submodule "vim/plugins/vim-autoclose"]
+	path = vim/bundle/vim-autoclose
+	url = git://github.com/Townk/vim-autoclose.git
+[submodule "vim/plugins/vim-blockle"]
+	path = vim/bundle/vim-blockle
+	url = git://github.com/jgdavey/vim-blockle.git
+[submodule "vim/plugins/vim-bundler"]
+	path = vim/bundle/vim-bundler
+	url = git://github.com/tpope/vim-bundler.git
+[submodule "vim/plugins/vim-closetag"]
+	path = vim/bundle/vim-closetag
+	url = git://github.com/alvan/vim-closetag.git
+[submodule "vim/plugins/vim-coffee-script"]
+	path = vim/bundle/vim-coffee-script
+	url = git://github.com/kchmck/vim-coffee-script.git
+[submodule "vim/plugins/vim-colors-solarized"]
+	path = vim/bundle/vim-colors-solarized
+	url = git://github.com/altercation/vim-colors-solarized.git
+[submodule "vim/plugins/vim-commentary"]
+	path = vim/bundle/vim-commentary
+	url = git://github.com/tpope/vim-commentary.git
+[submodule "vim/plugins/vim-cucumber"]
+	path = vim/bundle/vim-cucumber
+	url = git://github.com/tpope/vim-cucumber.git
+[submodule "vim/plugins/vim-devicons"]
+	path = vim/bundle/vim-devicons
+	url = git://github.com/ryanoasis/vim-devicons
+[submodule "vim/plugins/vim-elixir"]
+	path = vim/bundle/vim-elixir
+	url = git://github.com/elixir-lang/vim-elixir.git
+[submodule "vim/plugins/vim-eunuch"]
+	path = vim/bundle/vim-eunuch
+	url = git://github.com/tpope/vim-eunuch.git
+[submodule "vim/plugins/vim-fugitive"]
+	path = vim/bundle/vim-fugitive
+	url = git://github.com/tpope/vim-fugitive.git
+[submodule "vim/plugins/vim-graphql"]
+	path = vim/bundle/vim-graphql
+	url = git://github.com/jparise/vim-graphql.git
+[submodule "vim/plugins/vim-javascript"]
+	path = vim/bundle/vim-javascript
+	url = git://github.com/pangloss/vim-javascript.git
+[submodule "vim/plugins/vim-jsx"]
+	path = vim/bundle/vim-jsx
+	url = git://github.com/mxw/vim-jsx.git
+[submodule "vim/plugins/vim-rails"]
+	path = vim/bundle/vim-rails
+	url = git://github.com/tpope/vim-rails.git
+[submodule "vim/plugins/vim-repeat"]
+	path = vim/bundle/vim-repeat
+	url = git://github.com/tpope/vim-repeat.git
+[submodule "vim/plugins/vim-ruby"]
+	path = vim/bundle/vim-ruby
+	url = git://github.com/vim-ruby/vim-ruby.git
+[submodule "vim/plugins/vim-sensible"]
+	path = vim/bundle/vim-sensible
+	url = git://github.com/tpope/vim-sensible.git
+[submodule "vim/plugins/vim-speeddating"]
+	path = vim/bundle/vim-speeddating
+	url = git://github.com/tpope/vim-speeddating.git
+[submodule "vim/plugins/vim-surround"]
+	path = vim/bundle/vim-surround
+	url = git://github.com/tpope/vim-surround.git
+[submodule "vim/plugins/vim-textobj-ruby"]
+	path = vim/bundle/vim-textobj-ruby
+	url = git://github.com/rhysd/vim-textobj-ruby.git
+[submodule "vim/plugins/vim-textobj-user"]
+	path = vim/bundle/vim-textobj-user
+	url = git://github.com/kana/vim-textobj-user.git
+[submodule "vim/plugins/vim-unimpaired"]
+	path = vim/bundle/vim-unimpaired
+	url = git://github.com/tpope/vim-unimpaired.git
