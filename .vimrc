@@ -20,10 +20,13 @@ set splitbelow
 set splitright
 set cursorline
 set tags+=gems.tags
+set termguicolors
 
 set background=dark
-colorscheme dracula
+colorscheme monokai
 highlight Comment cterm=italic
+let g:monokai_term_italic = 1
+let g:monokai_gui_italic = 1
 
 let g:airline_powerline_fonts = 1
 if !exists('g:airline_symbols')
