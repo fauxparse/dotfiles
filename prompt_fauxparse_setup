@@ -1,0 +1,40 @@
+pmodload 'helper'
+
+function prompt_fauxparse_precmd {
+  setopt LOCAL_OPTIONS
+  unsetopt XTRACE KSH_ARRAYS
+
+  # Get Git repository information.
+  if (( $+functions[git-info] )); then
+    git-info
+  fi
+}
+
+function prompt_fauxparse_setup {
+  setopt LOCAL_OPTIONS
+  unsetopt XTRACE KSH_ARRAYS
+  prompt_opts=(cr percent subst)
+
+  # Load required functions.
+  autoload -Uz add-zsh-hook
+
+  # Add hook for calling git-info before each command.
+  add-zsh-hook precmd prompt_fauxparse_precmd
+
+  zstyle ':prezto:module:editor:info:keymap:primary' format '%(?;%{💀%} ;%{🦄%} )'
+  zstyle ':prezto:module:editor:info:keymap:primary' format '🦄 %(?;%{%F{cyan}%};%{%F{magenta}%})'
+  zstyle ':prezto:module:editor:info:completing' format '%B%F{blue}...%f%b'
+
+  zstyle ':prezto:module:git:info' verbose 'yes'
+  zstyle ':prezto:module:git:info:branch' format '%F{green}%b%f'
+  zstyle ':prezto:module:git:info:dirty' format '💩 '
+  zstyle ':prezto:module:git:info:keys' format \
+    'prompt' '' \
+    'rprompt' '%b %D'
+  
+  # Define prompts.
+  PROMPT='${editor_info[keymap]}%c%f '
+  RPROMPT='${editor_info[overwrite]}${VIM:+" %B%F{green}V%f%b"}${git_info[rprompt]}'
+}
+
+prompt_fauxparse_setup "$@"
