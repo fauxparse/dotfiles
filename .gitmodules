@@ -97,3 +97,12 @@
 [submodule "vim/bundle/slim-vim"]
 	path = vim/bundle/slim-vim
 	url = git@github.com:slim-template/vim-slim
+[submodule "vim/bundle/vim-monokai"]
+	path = vim/bundle/vim-monokai
+	url = git@github.com:crusoexia/vim-monokai.git
+[submodule "vim/bundle/webapi-vim"]
+	path = vim/bundle/webapi-vim
+	url = git@github.com:mattn/webapi-vim.git
+[submodule "vim/bundle/emmet-vim"]
+	path = vim/bundle/emmet-vim
+	url = git@github.com:mattn/emmet-vim.git
