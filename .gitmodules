@@ -91,9 +91,12 @@
 [submodule "vim/plugins/vim-unimpaired"]
 	path = vim/bundle/vim-unimpaired
 	url = git://github.com/tpope/vim-unimpaired.git
-[submodule "vim/bundle/dracula-theme"]
-	path = vim/bundle/dracula-theme
-	url = git@github.com:dracula/vim.git
+[submodule "vim/bundle/elm-vim"]
+	path = vim/bundle/elm-vim
+	url = git@github.com:ElmCast/elm-vim.git
+[submodule "vim/bundle/slim-vim"]
+	path = vim/bundle/slim-vim
+	url = git@github.com:slim-template/vim-slim
 [submodule "vim/bundle/vim-monokai"]
 	path = vim/bundle/vim-monokai
 	url = git@github.com:crusoexia/vim-monokai.git
