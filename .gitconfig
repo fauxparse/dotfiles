@@ -12,7 +12,14 @@
   m = commit --amend
   ca = commit --amend --no-edit
   pf = push --force-with-lease
+  pu = "!git push -u origin $(git branch-name)"
   s = status
   st = status
   aliases = "!git config -l | grep alias | cut -c 7-"
+  branch-name = "!git rev-parse --abbrev-ref HEAD"
   branches = "!git for-each-ref --sort='-authordate' --format='%(authordate)%09%(objectname:short)%09%(refname)' refs/heads | sed -e 's-refs/heads/--'"
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
