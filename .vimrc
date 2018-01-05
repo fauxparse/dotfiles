@@ -79,6 +79,11 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
+nnoremap <Up> <Nop>
+nnoremap <Down> <Nop>
+nnoremap <Left> <Nop>
+nnoremap <Right> <Nop>
+
 autocmd QuickFixCmdPost grep cwindow
 
 " Use The Silver Searcher https://github.com/ggreer/the_silver_searcher
