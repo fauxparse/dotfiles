@@ -53,6 +53,24 @@ autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
 autocmd FileType javascript setlocal formatprg=prettier\ --stdin\ --single-quote\ \|\ sed\ 's/;$//'
 
+" Display extra whitespace
+set list listchars=tab:»·,trail:·,nbsp:·
+
+" Tab completion
+" will insert tab at beginning of line,
+" will use completion if not at beginning
+set wildmode=list:longest,list:full
+function! InsertTabWrapper()
+    let col = col('.') - 1
+    if !col || getline('.')[col - 1] !~ '\k'
+        return "\<Tab>"
+    else
+        return "\<C-p>"
+    endif
+endfunction
+inoremap <Tab> <C-r>=InsertTabWrapper()<CR>
+inoremap <S-Tab> <C-n>
+
 nnoremap <tab> za
 nnoremap <leader>a :Ggrep 
 nnoremap <leader>. :CtrlPTag<cr>
