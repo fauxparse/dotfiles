@@ -46,6 +46,7 @@ let g:jsx_ext_required = 0
 let g:closetag_filenames = "*.html,*.js,*.erb"
 
 let g:gitgutter_max_signs = 100
+let g:rspec_command = "!bundle exec rspec {spec}"
 
 runtime macros/matchit.vim
 
@@ -75,7 +76,7 @@ inoremap <Tab> <C-r>=InsertTabWrapper()<CR>
 inoremap <S-Tab> <C-n>
 
 nnoremap <tab> za
-nnoremap <leader>a :Ggrep 
+nnoremap <leader>g :Ggrep 
 nnoremap <leader>. :CtrlPTag<cr>
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
@@ -86,6 +87,12 @@ nnoremap <Up> <Nop>
 nnoremap <Down> <Nop>
 nnoremap <Left> <Nop>
 nnoremap <Right> <Nop>
+
+" RSpec.vim mappings
+map <Leader>r :call RunCurrentSpecFile()<CR>
+map <Leader>s :call RunNearestSpec()<CR>
+map <Leader>l :call RunLastSpec()<CR>
+map <Leader>S :call RunAllSpecs()<CR>
 
 autocmd QuickFixCmdPost grep cwindow
 
