@@ -11,6 +11,7 @@ set splitright
 set relativenumber
 set number
 set textwidth=80
+set formatoptions-=t
 set colorcolumn=+1
 set laststatus=2
 set noshowmode
