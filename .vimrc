@@ -45,6 +45,8 @@ let g:closetag_filenames = "*.html,*.erb,*.js,*.jsx"
 let g:jsx_ext_required = 0
 let g:closetag_filenames = "*.html,*.js,*.erb"
 
+let g:gitgutter_max_signs = 100
+
 runtime macros/matchit.vim
 
 autocmd FileType ruby,scss,css,coffee,javascript autocmd BufWritePre <buffer> :%s/\s\+$//e
