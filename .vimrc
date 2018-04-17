@@ -30,7 +30,7 @@ let g:monokai_gui_italic = 1
 let g:solarized_termcolors = 16
 let g:solarized_termtrans = 1
 set background=dark
-colorscheme monokai
+colorscheme cobalt2
 highlight Comment cterm=italic
 
 let g:airline_powerline_fonts = 1
@@ -79,6 +79,7 @@ inoremap <S-Tab> <C-n>
 nnoremap <tab> za
 nnoremap <leader>g :Ggrep 
 nnoremap <leader>. :CtrlPTag<cr>
+nmap <silent> <leader>d <Plug>DashSearch
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
