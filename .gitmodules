@@ -128,3 +128,6 @@
 [submodule "vim/bundle/dash.vim"]
 	path = vim/bundle/dash.vim
 	url = git@github.com:rizzatti/dash.vim.git
+[submodule "vim/bundle/fzf.vim"]
+	path = vim/bundle/fzf.vim
+	url = git@github.com:junegunn/fzf.vim.git

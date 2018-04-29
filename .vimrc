@@ -50,6 +50,7 @@ let g:gitgutter_max_signs = 100
 let g:rspec_command = "!bundle exec rspec {spec}"
 
 runtime macros/matchit.vim
+set rtp+=/usr/local/opt/fzf
 
 autocmd FileType ruby,scss,css,coffee,javascript autocmd BufWritePre <buffer> :%s/\s\+$//e
 
