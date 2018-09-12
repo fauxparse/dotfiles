@@ -25,7 +25,7 @@ fuck () {
 }
 
 alias be="bundle exec"
-alias r="rails"
+alias r="bundle exec rails"
 alias ssh="TERM=xterm-256color ssh"
 
 typeset -A ZSH_HIGHLIGHT_STYLES
