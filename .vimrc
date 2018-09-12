@@ -30,7 +30,8 @@ let g:monokai_gui_italic = 1
 let g:solarized_termcolors = 16
 let g:solarized_termtrans = 1
 set background=dark
-colorscheme cobalt2
+" colorscheme cobalt2
+colorscheme Base2Tone_CaveDark
 highlight Comment cterm=italic
 
 let g:airline_powerline_fonts = 1
@@ -40,7 +41,8 @@ endif
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#tab_nr_type = 1
 let g:airline#extensions#tabline#show_buffers = 0
-let g:airline_theme = 'base16_monokai'
+" let g:airline_theme = 'base16_monokai'
+let g:airline_theme = 'Base2Tone_CaveDark'
 
 let g:closetag_filenames = "*.html,*.erb,*.js,*.jsx"
 let g:jsx_ext_required = 0

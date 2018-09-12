@@ -131,3 +131,10 @@
 [submodule "vim/bundle/fzf.vim"]
 	path = vim/bundle/fzf.vim
 	url = git@github.com:junegunn/fzf.vim.git
+[submodule "vim/bundle/colorschemes"]
+	path = vim/bundle/colorschemes
+	url = https://github.com/flazz/vim-colorschemes.git
+	ignore = dirty
+[submodule "vim/bundle/Base2Tone-vim"]
+	path = vim/bundle/Base2Tone-vim
+	url = git@github.com:atelierbram/Base2Tone-vim.git
