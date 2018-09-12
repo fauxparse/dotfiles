@@ -1,4 +1,7 @@
 *.swp
 node_modules
 .DS_Store
+doc
+.yardoc
 tags
+!tags/
