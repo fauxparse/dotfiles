@@ -138,3 +138,6 @@
 [submodule "vim/bundle/Base2Tone-vim"]
 	path = vim/bundle/Base2Tone-vim
 	url = git@github.com:atelierbram/Base2Tone-vim.git
+[submodule "vim/bundle/vim-localvimrc"]
+	path = vim/bundle/vim-localvimrc
+	url = git@github.com:embear/vim-localvimrc.git
