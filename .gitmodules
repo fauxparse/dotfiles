@@ -141,3 +141,6 @@
 [submodule "vim/bundle/vim-localvimrc"]
 	path = vim/bundle/vim-localvimrc
 	url = git@github.com:embear/vim-localvimrc.git
+[submodule "vim/bundle/vim-styled-components"]
+	path = vim/bundle/vim-styled-components
+	url = git@github.com:styled-components/vim-styled-components.git
