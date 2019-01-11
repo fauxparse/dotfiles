@@ -144,3 +144,6 @@
 [submodule "vim/bundle/vim-styled-components"]
 	path = vim/bundle/vim-styled-components
 	url = git@github.com:styled-components/vim-styled-components.git
+[submodule "vim/bundle/ale"]
+	path = vim/bundle/ale
+	url = git@github.com:w0rp/ale.git

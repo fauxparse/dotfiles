@@ -82,6 +82,11 @@ endfunction
 inoremap <Tab> <C-r>=InsertTabWrapper()<CR>
 inoremap <S-Tab> <C-n>
 
+let g:ale_linters = {
+\   'javascript': ['eslint'],
+\   'ruby': ['rubocop'],
+\}
+
 nnoremap <tab> za
 nnoremap <leader>g :Ggrep 
 nnoremap <leader>. :CtrlPTag<cr>
