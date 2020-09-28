@@ -34,27 +34,15 @@
 [submodule "vim/plugins/vim-coffee-script"]
 	path = vim/bundle/vim-coffee-script
 	url = git://github.com/kchmck/vim-coffee-script.git
-[submodule "vim/plugins/vim-colors-solarized"]
-	path = vim/bundle/vim-colors-solarized
-	url = git://github.com/altercation/vim-colors-solarized.git
 [submodule "vim/plugins/vim-commentary"]
 	path = vim/bundle/vim-commentary
 	url = git://github.com/tpope/vim-commentary.git
 [submodule "vim/plugins/vim-cucumber"]
 	path = vim/bundle/vim-cucumber
 	url = git://github.com/tpope/vim-cucumber.git
-[submodule "vim/plugins/vim-devicons"]
-	path = vim/bundle/vim-devicons
-	url = git://github.com/ryanoasis/vim-devicons
-[submodule "vim/plugins/vim-elixir"]
-	path = vim/bundle/vim-elixir
-	url = git://github.com/elixir-lang/vim-elixir.git
 [submodule "vim/plugins/vim-eunuch"]
 	path = vim/bundle/vim-eunuch
 	url = git://github.com/tpope/vim-eunuch.git
-[submodule "vim/plugins/vim-fugitive"]
-	path = vim/bundle/vim-fugitive
-	url = git://github.com/tpope/vim-fugitive.git
 [submodule "vim/plugins/vim-graphql"]
 	path = vim/bundle/vim-graphql
 	url = git://github.com/jparise/vim-graphql.git
@@ -91,21 +79,9 @@
 [submodule "vim/plugins/vim-unimpaired"]
 	path = vim/bundle/vim-unimpaired
 	url = git://github.com/tpope/vim-unimpaired.git
-[submodule "vim/bundle/elm-vim"]
-	path = vim/bundle/elm-vim
-	url = git@github.com:ElmCast/elm-vim.git
-[submodule "vim/bundle/slim-vim"]
-	path = vim/bundle/slim-vim
-	url = git@github.com:slim-template/vim-slim
 [submodule "vim/bundle/vim-monokai"]
 	path = vim/bundle/vim-monokai
 	url = git@github.com:crusoexia/vim-monokai.git
-[submodule "vim/bundle/webapi-vim"]
-	path = vim/bundle/webapi-vim
-	url = git@github.com:mattn/webapi-vim.git
-[submodule "vim/bundle/emmet-vim"]
-	path = vim/bundle/emmet-vim
-	url = git@github.com:mattn/emmet-vim.git
 [submodule "vim/bundle/vim-airline-themes"]
 	path = vim/bundle/vim-airline-themes
 	url = https://github.com/vim-airline/vim-airline-themes
@@ -121,10 +97,6 @@
 [submodule "vim/bundle/vim-ripgrep"]
 	path = vim/bundle/vim-ripgrep
 	url = git@github.com:jremmen/vim-ripgrep.git
-[submodule "vim/bundle/vim-colorschemes"]
-	path = vim/bundle/vim-colorschemes
-	url = git@github.com:flazz/vim-colorschemes.git
-  ignore = dirty
 [submodule "vim/bundle/dash.vim"]
 	path = vim/bundle/dash.vim
 	url = git@github.com:rizzatti/dash.vim.git
@@ -138,12 +110,6 @@
 [submodule "vim/bundle/Base2Tone-vim"]
 	path = vim/bundle/Base2Tone-vim
 	url = git@github.com:atelierbram/Base2Tone-vim.git
-[submodule "vim/bundle/vim-localvimrc"]
-	path = vim/bundle/vim-localvimrc
-	url = git@github.com:embear/vim-localvimrc.git
-[submodule "vim/bundle/vim-styled-components"]
-	path = vim/bundle/vim-styled-components
-	url = git@github.com:styled-components/vim-styled-components.git
 [submodule "vim/bundle/ale"]
 	path = vim/bundle/ale
 	url = git@github.com:w0rp/ale.git
