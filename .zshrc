@@ -11,6 +11,7 @@ unsetopt correct_all
 
 # aliases
 eval "$(rbenv init - --no-rehash)"
+
 # eval "$(thefuck --alias)"
 fuck () {
   TF_HISTORY=$(fc -ln -10 | tail -n 1)
@@ -25,6 +26,7 @@ fuck () {
 }
 
 alias be="bundle exec"
+alias byo="bundle && yarn && overmind restart"
 alias r="bundle exec rails"
 alias ssh="TERM=xterm-256color ssh"
 
@@ -35,3 +37,7 @@ ZSH_HIGHLIGHT_STYLES[path_approx]='none'
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 export FZF_DEFAULT_COMMAND='rg --files --no-ignore --hidden --follow --glob "!.git/*" --glob "!node_modules/*"'
+
+gch() {
+ git checkout "$(git branch --all | fzf| tr -d '[:space:]')" 2&> /dev/null
+}

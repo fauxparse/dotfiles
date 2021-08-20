@@ -94,9 +94,6 @@
 [submodule "vim/bundle/vim-rspec"]
 	path = vim/bundle/vim-rspec
 	url = git@github.com:thoughtbot/vim-rspec.git
-[submodule "vim/bundle/vim-ripgrep"]
-	path = vim/bundle/vim-ripgrep
-	url = git@github.com:jremmen/vim-ripgrep.git
 [submodule "vim/bundle/dash.vim"]
 	path = vim/bundle/dash.vim
 	url = git@github.com:rizzatti/dash.vim.git

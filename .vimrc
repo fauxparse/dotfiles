@@ -110,10 +110,30 @@ map <Leader>S :call RunAllSpecs()<CR>
 autocmd QuickFixCmdPost grep cwindow
 
 if executable('rg')
-  set grepprg=rg\ --color=never
-  let g:ctrlp_user_command = 'rg %s --files --color=never --glob ""'
+  let g:ctrlp_user_command = 'rg %s --hidden --files --color=never --glob ""'
   let g:ctrlp_use_caching = 0
+  set grepprg=rg\ --vimgrep\ --no-heading\ --smart-case
 endif
+
+augroup myvimrc
+    autocmd!
+    autocmd QuickFixCmdPost [^l]* cwindow
+    autocmd QuickFixCmdPost l*    lwindow
+augroup END
+
+fun! s:Grep(txt)
+  if empty(a:txt)
+    let needle = expand("<cword>")
+  else
+    let needle =  a:txt
+  endif
+  silent! execute "grep! " . needle
+endfun
+
+command! -nargs=* -complete=file Rg :call s:Grep(<q-args>)
+
+noremap <leader>rr :Rg<cr>
+noremap <leader>r<space> :Rg<space>
 
 " copy to system clipboard
 map gy "*y
